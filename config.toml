@@ -12,4 +12,4 @@ features = ["blog", "themes", "disqus"]
     homepage = "https://samesense.github.io/blog/"
 
 [params]
-    description = "A computational biology focused blog maintained by <a href='http://twitter.com/oncolytic'>@oncolytic</a>."
+    description = 'A computational biology focused blog maintained by <a href="http://twitter.com/oncolytic">@oncolytic</a>.'
