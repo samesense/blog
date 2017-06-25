@@ -16,6 +16,7 @@ I use one for consistent navigation across projects, and to save configuration
 time.
 
 My modifications to the [data science template](https://github.com/drivendata/cookiecutter-data-science) are below.
+
 * I add a work directory to hold analysis results and summaries that do not belong in reports.
 * I add a log directory to hold log output from programs like STAR and snpeff
 * I add a tests directory under src/ to hold unit tests, and a tests directory under data/ to hold testing data.
