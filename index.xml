@@ -6,18 +6,28 @@
     <description>Recent content on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Jun 2017 09:53:07 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jun 2017 10:08:24 -0400</lastBuildDate>
     
 	<atom:link href="https://samesense.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Intro</title>
+      <title>my python project structure template</title>
+      <link>https://samesense.github.io/blog/post/cookiecutter/</link>
+      <pubDate>Sun, 25 Jun 2017 10:08:24 -0400</pubDate>
+      
+      <guid>https://samesense.github.io/blog/post/cookiecutter/</guid>
+      <description>Cookiecutter allows you to setup a project&amp;rsquo;s structure from templates. I use a modified data science cookiecutter template, found here. The benefits of a project template are better described by others. I use one for consistent navigation across projects, and to save configuration time.
+My modifications to the data science template are below. * I add a work directory to hold analysis results and summaries that do not belong in reports.</description>
+    </item>
+    
+    <item>
+      <title>blog plan</title>
       <link>https://samesense.github.io/blog/post/intro/</link>
       <pubDate>Sat, 24 Jun 2017 09:53:07 -0400</pubDate>
       
       <guid>https://samesense.github.io/blog/post/intro/</guid>
-      <description>Start.</description>
+      <description>Each weekend, I write up a topic I&amp;rsquo;ve explored over the past week. I then give myself another week to refine the post. Publish post histories are stored here.</description>
     </item>
     
   </channel>
