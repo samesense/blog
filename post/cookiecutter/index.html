@@ -61,17 +61,20 @@ are
 I use one for consistent navigation across projects, and to save configuration
 time.</p>
 
-<p>My modifications to the <a href="https://github.com/drivendata/cookiecutter-data-science">data science template</a> are below.
-* I add a work directory to hold analysis results and summaries that do not belong in reports.
-* I add a log directory to hold log output from programs like STAR and snpeff
-* I add a tests directory under src/ to hold unit tests, and a tests directory under data/ to hold testing data.
-* I replace the Makefile with a snakefile sf.py, in src/rules. This is controled
-  by run.sh. Associated rules and constants are stored in src/rules/. My
-  snakefile is setup to send me an SMS when the pipeline completes. To use this
-  feature, change the <a href="https://www.twilio.com">twilio</a> keys in
-  SECRETS/pass_wd.py
-  (look
-  <a href="https://github.com/samesense/cookiecutter-data-science/blob/master/%7B%7B%20cookiecutter.repo_name%20%7D%7D/src/rules/const.py">here</a>).</p>
+<p>My modifications to the <a href="https://github.com/drivendata/cookiecutter-data-science">data science template</a> are below.</p>
+
+<ul>
+<li>I add a work directory to hold analysis results and summaries that do not belong in reports.</li>
+<li>I add a log directory to hold log output from programs like STAR and snpeff</li>
+<li>I add a tests directory under src/ to hold unit tests, and a tests directory under data/ to hold testing data.</li>
+<li>I replace the Makefile with a snakefile sf.py, in src/rules. This is controled
+by run.sh. Associated rules and constants are stored in src/rules/. My
+snakefile is setup to send me an SMS when the pipeline completes. To use this
+feature, change the <a href="https://www.twilio.com">twilio</a> keys in
+SECRETS/pass_wd.py
+(look
+<a href="https://github.com/samesense/cookiecutter-data-science/blob/master/%7B%7B%20cookiecutter.repo_name%20%7D%7D/src/rules/const.py">here</a>).</li>
+</ul>
 
 			</div>
 

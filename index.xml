@@ -18,7 +18,8 @@
       
       <guid>https://samesense.github.io/blog/post/cookiecutter/</guid>
       <description>Cookiecutter allows you to setup a project&amp;rsquo;s structure from templates. I use a modified data science cookiecutter template, found here. The benefits of a project template are better described by others. I use one for consistent navigation across projects, and to save configuration time.
-My modifications to the data science template are below. * I add a work directory to hold analysis results and summaries that do not belong in reports.</description>
+My modifications to the data science template are below.
+ I add a work directory to hold analysis results and summaries that do not belong in reports.</description>
     </item>
     
     <item>
