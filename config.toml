@@ -4,10 +4,12 @@ title = "blog"
 
 name = "Hyde"
 license = "MIT"
-description = "A computational biology focused blog"
 tags = ["blog", "genomics"]
 features = ["blog", "themes", "disqus"]
 
 [author]
     name = "samesense"
     homepage = "https://samesense.github.io/blog/"
+
+[params]
+    description = "A computational biology focused blog maintained by [@oncolytic](https://twitter.com/oncolytic)"

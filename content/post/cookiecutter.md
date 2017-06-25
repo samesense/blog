@@ -7,8 +7,8 @@ draft = false
 [Cookiecutter](https://github.com/audreyr/cookiecutter) allows you to setup a
 project's structure from templates. I use a
 modified
-[data science cookiecutter template](http://drivendata.github.io/cookiecutter-data-science/),
-found [here](https://github.com/samesense/cookiecutter-data-science). The
+[data science cookiecutter template](http://drivendata.github.io/cookiecutter-data-science/).
+My version is [here](https://github.com/samesense/cookiecutter-data-science). The
 benefits of a project template
 are
 [better described by others](http://drivendata.github.io/cookiecutter-data-science/).
@@ -24,9 +24,8 @@ My modifications to the [data science template](https://github.com/drivendata/co
   by run.sh. Associated rules and constants are stored in src/rules/. My
   snakefile is setup to send me an SMS when the pipeline completes. To use this
   feature, change the [twilio](https://www.twilio.com) keys in
-  SECRETS/pass_wd.py
-  (look
-  [here](https://github.com/samesense/cookiecutter-data-science/blob/master/%7B%7B%20cookiecutter.repo_name%20%7D%7D/src/rules/const.py)).
-
+  SECRETS/pass_wd.py, referenced in
+  the
+  [constants file](https://github.com/samesense/cookiecutter-data-science/blob/master/%7B%7B%20cookiecutter.repo_name%20%7D%7D/src/rules/const.py).
 
 
