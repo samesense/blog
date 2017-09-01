@@ -1,7 +1,7 @@
 +++
 title = "blog plan"
 date = 2017-06-24T09:53:07-04:00
-draft = false
+draft = true
 +++
 
 Each weekend, I write up a topic I've explored over the past week. I then give
