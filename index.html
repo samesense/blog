@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.26" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>blog</title>
+  
+
+  
+  <link rel="stylesheet" href="https://samesense.github.io/blog/css/poole.css">
+  <link rel="stylesheet" href="https://samesense.github.io/blog/css/syntax.css">
+  <link rel="stylesheet" href="https://samesense.github.io/blog/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://samesense.github.io/blog/index.xml" rel="alternate" type="application/rss+xml" title="blog" />
+</head>
+
+<body class=" ">
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://samesense.github.io/blog/"><h1>blog</h1></a>
+      <p class="lead">
+      A computational biology focused blog maintained by <a href="http://twitter.com/oncolytic">@oncolytic</a>.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2017. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="posts">
+
+      
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://samesense.github.io/blog/post/cookiecutter/">
+        my python project structure template
+      </a>
+    </h1>
+
+    <span class="post-date">Sun, Jun 25, 2017</span>
+
+    <p><a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> allows you to setup a
+project&rsquo;s structure from templates. I use a
+modified
+<a href="http://drivendata.github.io/cookiecutter-data-science/">data science cookiecutter template</a>.
+My version is <a href="https://github.com/samesense/cookiecutter-data-science">here</a>. The
+benefits of a project template
+are
+<a href="http://drivendata.github.io/cookiecutter-data-science/">better described by others</a>.
+I use one for consistent navigation across projects, and to save configuration
+time.</p>
+
+<p>My modifications to the <a href="https://github.com/drivendata/cookiecutter-data-science">data science template</a> are below.</p>
+
+<ul>
+<li>I add a work directory to hold analysis results and summaries that do not belong in reports.</li>
+<li>I add a log directory to hold log output from programs like STAR and snpeff</li>
+<li>I add a tests directory under src/ to hold unit tests, and a tests directory under data/ to hold testing data.</li>
+<li>I replace the Makefile with a snakefile sf.py, in src/rules. This is controled
+by run.sh. Associated rules and constants are stored in src/rules/. My
+snakefile is setup to send me an SMS when the pipeline completes. To use this
+feature, change the <a href="https://www.twilio.com">twilio</a> keys in
+SECRETS/pass_wd.py, referenced in
+the
+<a href="https://github.com/samesense/cookiecutter-data-science/blob/master/%7B%7B%20cookiecutter.repo_name%20%7D%7D/src/rules/const.py">constants file</a>.</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://samesense.github.io/blog/post/bear/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    <p>title = &ldquo;bear notebook&rdquo;
+date = 2017-09-01T15:05:07-04:00
+draft = false
++++</p>
+
+<p>This week I tried <a href="https://ulyssesapp.com">Ulysses</a>
+and <a href="http://www.bear-writer.com">Bear</a> as lab notebook options. I&rsquo;ve decided to
+go with Bear, and pay its annual fee of $15.</p>
+
+<p>I started my <a href="samesense.blogspot.com/">notebook</a> in 2007 on blogger. I did not
+like the search features. I briefly switched to a locally
+hosted <a href="https://ghost.org">ghost</a>, but found that searching through posts and
+updating ghost soured the experience. I&rsquo;ve been using text files backup up to
+GitHub for the past two years. I can search with grep/ag or GitHub&rsquo;s search
+feature. I edit files in Emacs. I miss the ability to insert pictures, and
+markdown-ish file structure I&rsquo;ve adopted doesn&rsquo;t provide the visual cues that I&rsquo;d
+like, though I haven&rsquo;t learned org-mode. Ulysses has been mentioned in my news a
+few times this past month, so I decided to try it out. It&rsquo;s nice for journaling,
+but the annual subscription fee is $40, which has generated a lot of complaints.
+Reading these led me to rediscover Bear, which I had initially written off as an
+cheap Evernote clone.</p>
+
+<p>After trying Bear, I found that its formatting and tagging schemes worked well
+with the lab notebook organization I&rsquo;ve been using. It uses Markdown to visually
+highlight my task based headings, and its nested tag structure allows me to easily
+jump between logs. There&rsquo;s also a way to link between notes, allowing me to
+maintain project threads between days. Bear will export to text files, so when I
+leave it, I can put all the files into GitHub again.</p>
+
+  </div>
+  
+</div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog</title>
+    <link>https://samesense.github.io/blog/</link>
+    <description>Recent content on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Jun 2017 10:08:24 -0400</lastBuildDate>
+    
+	<atom:link href="https://samesense.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>my python project structure template</title>
+      <link>https://samesense.github.io/blog/post/cookiecutter/</link>
+      <pubDate>Sun, 25 Jun 2017 10:08:24 -0400</pubDate>
+      
+      <guid>https://samesense.github.io/blog/post/cookiecutter/</guid>
+      <description>Cookiecutter allows you to setup a project&amp;rsquo;s structure from templates. I use a modified data science cookiecutter template. My version is here. The benefits of a project template are better described by others. I use one for consistent navigation across projects, and to save configuration time.
+My modifications to the data science template are below.
+ I add a work directory to hold analysis results and summaries that do not belong in reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://samesense.github.io/blog/post/bear/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://samesense.github.io/blog/post/bear/</guid>
+      <description>title = &amp;ldquo;bear notebook&amp;rdquo; date = 2017-09-01T15:05:07-04:00 draft = false +++
+This week I tried Ulysses and Bear as lab notebook options. I&amp;rsquo;ve decided to go with Bear, and pay its annual fee of $15.
+I started my notebook in 2007 on blogger. I did not like the search features. I briefly switched to a locally hosted ghost, but found that searching through posts and updating ghost soured the experience. I&amp;rsquo;ve been using text files backup up to GitHub for the past two years.</description>
+    </item>
+    
+  </channel>
+</rss>
