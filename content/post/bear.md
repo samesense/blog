@@ -1,6 +1,6 @@
 +++
 title = "bear notebook"
-date = 2017-01-09T15:05:07-04:00
+date = 2017-09-01T15:05:07-04:00
 draft = false
 +++
 
