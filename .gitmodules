@@ -4,3 +4,9 @@
 [submodule "themes/hugo-bearblog"]
 	path = themes/hugo-bearblog
 	url = https://github.com/janraasch/hugo-bearblog.git
+[submodule "themes/diary"]
+	path = themes/diary
+	url = https://github.com/AmazingRise/hugo-theme-diary.git
+[submodule "themes/diaryPerry"]
+	path = themes/diaryPerry
+	url = https://github.com/samesense/hugo-theme-diary.git

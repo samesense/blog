@@ -1,19 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content on blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Jan 2025 17:12:44 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2025Jan25_agentRss</title>
-      <link>http://localhost:1313/blog/posts/2025jan25_agentrss/</link>
-      <pubDate>Sat, 25 Jan 2025 17:12:44 -0500</pubDate>
-      <guid>http://localhost:1313/blog/posts/2025jan25_agentrss/</guid>
-      <description>&lt;h2 id=&#34;use-hugging-face-smolagents-to-grab-rss-links-from-any-journal&#34;&gt;Use Hugging Face smolagents to grab RSS links from any journal&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a python script to get the RSS url from any journal website. It uses &lt;a href=&#34;https://huggingface.co/docs/smolagents/en/index&#34;&gt;smolagents&lt;/a&gt;. Journal html is grabbed with a tool that uses playwright. Html parsing is handled by bs4.&lt;/p&gt;</description>
-    </item>
+    
+        <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>2025Jan25_agentRss</title>
+        <link>http://localhost:1313/blog/posts/2025jan25_agentrss/</link>
+        <pubDate>Sat, 25 Jan 2025 17:12:44 -0500</pubDate>
+        
+        <guid>http://localhost:1313/blog/posts/2025jan25_agentrss/</guid>
+        <description>blog http://localhost:1313/blog/posts/2025jan25_agentrss/ -&lt;h2 id=&#34;use-hugging-face-smolagents-to-grab-rss-links-from-any-journal&#34;&gt;Use Hugging Face smolagents to grab RSS links from any journal&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/samesense/get-rss&#34;&gt;Here&amp;rsquo;s a python script&lt;/a&gt; to find the RSS url on any journal website. It leverages &lt;a href=&#34;https://huggingface.co/docs/smolagents/en/index&#34;&gt;smolagents&lt;/a&gt; and meta-llama/Llama-3.3-70B-Instruct. The journal’s HTML is grabbed with a custom smolagent tool powered by Playwright. Html parsing is handled by Beautiful Soup (bs4).&lt;/p&gt;
+- http://localhost:1313/blog/posts/2025jan25_agentrss/ - </description>
+        </item>
+    
+    
   </channel>
-</rss>
+</rss> 

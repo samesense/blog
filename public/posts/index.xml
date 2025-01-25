@@ -13,7 +13,7 @@
       <link>http://localhost:1313/blog/posts/2025jan25_agentrss/</link>
       <pubDate>Sat, 25 Jan 2025 17:12:44 -0500</pubDate>
       <guid>http://localhost:1313/blog/posts/2025jan25_agentrss/</guid>
-      <description>&lt;h2 id=&#34;use-hugging-face-smolagents-to-grab-rss-links-from-any-journal&#34;&gt;Use Hugging Face smolagents to grab RSS links from any journal&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a python script to get the RSS url from any journal website. It uses &lt;a href=&#34;https://huggingface.co/docs/smolagents/en/index&#34;&gt;smolagents&lt;/a&gt;. Journal html is grabbed with a tool that uses playwright. Html parsing is handled by bs4.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;use-hugging-face-smolagents-to-grab-rss-links-from-any-journal&#34;&gt;Use Hugging Face smolagents to grab RSS links from any journal&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/samesense/get-rss&#34;&gt;Here&amp;rsquo;s a python script&lt;/a&gt; to find the RSS url on any journal website. It leverages &lt;a href=&#34;https://huggingface.co/docs/smolagents/en/index&#34;&gt;smolagents&lt;/a&gt; and meta-llama/Llama-3.3-70B-Instruct. The journal’s HTML is grabbed with a custom smolagent tool powered by Playwright. Html parsing is handled by Beautiful Soup (bs4).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
